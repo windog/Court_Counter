@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
     /* reset the scores
       要注意方法的复用!!!!!!!!
-      注意值得清零!!!!!!!
+      注意全局变量的处理 , 清零!!!!!!!
     * */
     public void reset(View v) {
         displayForTeamA(0);
